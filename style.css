@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+/* Header */
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+header .logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+header .logo a {
+    color: #333;
+    font-weight: bold;
+    font-size: 20px ;
+}
+
+header .logo i {
+    display: block;
+    height: 20px;
+    width: 20px ;
+    padding: 5px;
+    margin: 5px;
+}
+
+header .menu {
+    width: 50%;
+}
+
+header .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+header .menu ul li a {
+    color: #333;
+    padding: 0px 20px 0px 30px;
+}
+
+header .menu ul li a:hover {
+    color: #3cb878;
+}
+
+header .header-button {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .header-button button {
+    background-color: #0057fc;
+    color: #fff;
+    padding: 8px 15px ;
+    border-radius: 11%;
+    margin-right: 40px;
+}
+
+header .header-button button:hover {
+    cursor: pointer;
+}
+
+/* Slider */
+
+#slider {
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.slider-item {
+    position: relative;
+}
+
+.slider-item .title {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.slider-item .title h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.slider-item .title button {
+    margin-top: 50px;
+    border: 1px solid #fafafa;
+    background-color: #1a1a1a;
+    padding: 10px 15px ;
+    color: #fafafa;
+    border-radius: 5px;
+}
+
+.slider-item img {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+/* Gym Fashion */
+
+#gym-fashion {
+    width: 100%;
+    margin-top: 60px;
+    display: block;
+}
+
+#gym-fashion h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#gym-fashion small {
+    display: block;
+    /* width: 100%; */
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#gym-fashion .fashion-img {
+    width: 100%;
+    justify-content: center;
+}
+
+.fashion-img ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fashion-img ul li {
+    /* max-width: 50%;
+    width: calc((100 / 2) - 10px); */
+    margin: 15px;
+}
+
+/* Staff-pick */
+
+#staff-pick {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#staff-pick h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#staff-pick .container  {
+    width: 100%;
+}
+
+.product-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-list ul li {
+    width: calc((100% / 3) - 10px );
+    margin: 5px;
+}
+
+/* Sale */
+
+#sale {
+    width: 100%;
+    position: relative;
+    
+}
+
+#sale .cover {
+    background-image: url(img/new2.png);
+    min-height: 500px;
+    margin-top: 60px;
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 30%;
+}
+
+#sale .content {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    z-index: 1000;
+}
+
+#sale .content h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+#sale .content button {
+    margin-top: 50px;
+    border: 1px solid #fafafa;
+    background-color: #1a1a1a;
+    padding: 10px 15px ;
+    color: #fafafa;
+    border-radius: 5px;
+}
+
+/* News */
+#news {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#news h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#news .news-content {
+    display: flex;
+    width: 100%;
+}
+
+#news .news-content ul li {
+    width: calc((100 /3) - 20px);
+    justify-content: center;
+    margin: 10px;
+}
+
+#news .news-content li i {
+    display: block;
+}
+
+/* Insta */
+
+#insta {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#insta h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#insta div {
+    display: flex
+}
+
+#insta .left {
+    width: 50%;
+}
+
+#insta .right {
+    display: flex;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    margin-top: 60px;
+}
+
+footer p {
+    text-align: center;
+}
